@@ -6,7 +6,7 @@ class Icebreaker{
     Question.Find()
   }
 }
-
-console.log(module.filename);  
-console.log(module.id);  
+module.exports=Icebreaker
+console.log(module.filename);
+console.log(module.id);
 console.log(module.exports);
